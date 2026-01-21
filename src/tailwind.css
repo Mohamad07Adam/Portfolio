@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+flex-grow: 1;
+
+  overflow-y: auto;
+}
+.content{
+  padding: 20px;
+}
+.app {
+  display: flex;
+  height: 100vh;
+
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.sidebar {
+  width: 250px; 
+  flex-shrink: 0;
+
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #555;
+}
+.fc-list-event:hover {
+  background-color: rgba(59, 130, 246, 0.12) !important; /* blue glow */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.fc-theme-standard .fc-list-day-cushion{
+  background: rgb(76, 206, 172)!important;
+}
+
+
+
+
+.fc-list-event::before {
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+
+  background: transparent;
+  transition: background 0.2s;
+}
+
+.fc-list-event:hover::before {
+  background: #3b82f6;
+}
+.fc-theme-standard .fc-list-event:hover td {
+  background: none !important;
+}
