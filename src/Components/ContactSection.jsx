@@ -94,18 +94,14 @@ import { useState } from "react";
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/mohamad-adam-60b254394/" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitter />
-                </a>
-                <a href="#" target="_blank">
+               
+                <a href="https://www.instagram.com/reels/DPcbDRvjT4Y/?next=%2F" target="_blank">
                   <Instagram />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitch />
-                </a>
+             
               </div>
             </div>
           </div>

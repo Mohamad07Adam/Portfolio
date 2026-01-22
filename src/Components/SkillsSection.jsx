@@ -3,19 +3,13 @@ import { cn } from "../assets/lib/utils";
 
 const skills = [
     { name: "HTML", level: 100, category: "Front-end" },
-    { name: "TAILWIND CSS", level: 90, category: "Front-end" },
-   { name: "JavaScript", level: 90, category: "Front-end" },
+    { name: "TAILWIND CSS", level: 100, category: "Front-end" },
+   { name: "JavaScript", level: 85, category: "Front-end" },
     { name: "REACT JS", level: 80, category: "Front-end" },
-    { name: "UI/UX Design", level: 70, category: "Front-end" },
+    { name: "UI/UX Design", level: 60, category: "Front-end" },
     { name: "PHP", level: 65, category: "Back-end" },
-    { name: "MySQL", level: 60, category: "Back-end" },
-    { name: "Laravel", level: 50, category: "Back-end" },
-
+    { name: "MySQL", level: 40, category: "Back-end" },
     { name: "Git/GitHub", level: 75, category: "Tools" },
-
-  
-    { name: "Figma", level: 65, category: "Tools" },
-    { name: "Chat GPT", level: 100, category: "Tools" },
     { name: "VS Code", level: 90, category: "Tools" },
 ]
 const categories = ["all", "Front-end", "Back-end", "Tools"]

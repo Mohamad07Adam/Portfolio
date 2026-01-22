@@ -10,8 +10,7 @@ const projects = [
     description: "A beautiful landing page for a flight model using React and TailwindCss",
     image: "Projects/flight.png",
     tags: ["React", "TailwindCSS"],
-    demo: "#",
-    githubUrl: "#"
+    
   },
   {
     id: 2,
@@ -19,8 +18,15 @@ const projects = [
     description: "Responsive modern section for an IDE web page using React and TailwindCss",
     image: "Projects/Hero.png",
     tags: ["React", "TailwindCSS"],
-    demo: "#",
-    githubUrl: "#"
+   
+  },
+  {
+    id: 7,
+    title: "Dashbaord",
+    description: "financial dashboard for a company using React and TailwindCss",
+    image: "Projects/Dashboard .png",
+    tags: ["React", "TailwindCSS"],
+    
   },
   {
     id: 3,
@@ -28,8 +34,7 @@ const projects = [
     description: "FAQ responsive and modern page using React and TailwindCss ",
     image: "Projects/faq.png",
     tags: ["React", "TailwindCSS"],
-    demo: "#",
-    githubUrl: "#"
+    
   },
   {
     id: 4,
@@ -37,8 +42,7 @@ const projects = [
     description: "Random password  generator using vanilla JavaScript and css",
     image: "Projects/pass.png",
     tags: ["JavaScript", "CSS"],
-    demo: "#",
-    githubUrl: "#"
+ 
   },
 
   {
@@ -47,8 +51,7 @@ const projects = [
     description: "Temperature converter app using vanilla JavaScript and CSS",
     image: "Projects/temp.png",
     tags: ["JavaScript", "CSS"],
-    demo: "#",
-    githubUrl: "#"
+   
   },
   {
     id: 6,
@@ -56,17 +59,17 @@ const projects = [
     description: "QUiz app that can be used in online education system ",
     image: "Projects/quiz.png",
     tags: ["JavaScript", "CSS"],
-    demo: "#",
-    githubUrl: "#"
+    
   },
+  
 ]
 const ProjectsSection = () => {
   return (
     <section
       id="projects"
-      className='py-24 px-4 relative'>
+      className='py-24 px-4 relative '>
       <div className='container mx-auto max-w-5xl'>
-        <h2 className='text-3xl md:text-4xl mb-4 text-center'>
+        <h2 className='text-4xl md:text-4xl mb-4 text-center'>
           {""}
           Featured <span className='text-primary'> projects </span>
         </h2>
@@ -93,21 +96,9 @@ const ProjectsSection = () => {
               <p className='text-muted-foreground text-sm mb-4' > {project.description}</p>
               <div className='flex justify-between items-center'>
                 <div className='flex space-x-3'>
-                  <a href={project.demoUrl} 
-                  target='blank'
-                  className='text-foreground/80 hover:text-primary transition-colors duration-300 ' >
-                    {" "}
-                    
-                    <ExternalLink size={20} />
-                  </a>
+                 
 
-                  <a href={project.githubUrl}
-                  target='blank'
-                  className='text-foreground/80 hover:text-primary transition-colors duration-300 '
-                  >
-                    {" "}
-                    <Github size={20} />
-                  </a>
+                
                 </div>
                  </div>
               </div>
