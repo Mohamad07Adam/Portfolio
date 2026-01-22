@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react"
+import { Briefcase, Code, AlignEndHorizontal,Pickaxe } from "lucide-react"
 const AboutSection = () => {
     return (
         <section id="about"
@@ -40,22 +40,21 @@ const AboutSection = () => {
                         </div>
                         <div className="gradient-border p-6 card-hover"> <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <User className="h-6 w-6 text-primary" />
+                                <AlignEndHorizontal className="h-6 w-6 text-primary" />
                             </div>
                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg text-glow"> UI/UX Design </h4>
-                                    <p className=" text-muted-foreground text-md">   Designing intuitive user interfaces and seamless user
-                    experiences.</p>
+                                    <h4 className="font-semibold text-lg text-glow"> Tools I actually use </h4>
+                                    <p className=" text-muted-foreground text-md"> JavaScript, React, TailwindCSS, Extenal UI libraries, Git/GitHub, Zustand for satate management , Axios for API calls, and deployment tools like Netlify — chosen for speed and simplicity.</p>
                                 </div>
                         </div>
                         </div>
                         <div className="gradient-border p-6 card-hover"> <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <Briefcase className="h-6 w-6 text-primary" />
+                                <Pickaxe className="h-6 w-6 text-primary" />
                             </div>
                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg text-glow"> Project Management</h4>
-                                    <p className=" text-muted-foreground text-md">Leading projects from conception to completion with agile
+                                    <h4 className="font-semibold text-lg text-glow"> Learning by building</h4>
+                                    <p className=" text-muted-foreground text-md">Most of my skills come from hands-on projects — testing ideas, improving UI, and turning concepts into working products.
                     methodologies. </p>
 
                                 </div>
