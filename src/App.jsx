@@ -1,13 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { NotFound } from "./pages/NotFound"
-import { Home } from "./pages/Home";
-import { Toaster } from "./Components/ui/toaster";
+import  Home  from "./pages/Home";
+
 
 
 function App() {
   return (
     <>
-    <Toaster/>
+
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />

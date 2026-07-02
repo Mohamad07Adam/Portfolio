@@ -24,7 +24,7 @@ const HeroSection = () => {
                 </h1>
                 <p className=" text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
                     Front-end developer building scalable, high-performance web interfaces.
-                    Expert in React, Tailwind CSS, modern component architecture, and responsive design systems.
+                    Expert in React, Next.js, Tailwind CSS, modern component architecture, and responsive design systems.
                     Focused on production-ready code, performance, and maintainable experience.</p>
                 <div className="opacity-0 animate-fade-in-delay-4 pt-4">           
                      <a href="#projects"
